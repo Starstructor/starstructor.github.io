@@ -4,12 +4,24 @@ body {
   color: #EEE;
 }
 
+header#header {
+  width: 100%;
+}
+
 section#mainContainer {
   border-radius: 5px;
   background-color: #000;
   opacity: 0.9;
   border: 2px solid #CCC;
   padding: 5px;
+}
+
+div#screenshots {
+
+}
+
+img.screenshot {
+  margin: 5px;
 }
 
 /* Custom container */

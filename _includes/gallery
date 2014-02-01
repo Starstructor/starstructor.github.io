@@ -1,0 +1,7 @@
+{% assign gallery = site.gallery %}
+
+<div id="screenshots" class="container">
+{% for picture in gallery %}
+  <a href="{{ picture }}"><img class="screenshot" src="{{ picture }}" alt="Screenshot" style="width: 30%;height: 5%" /></a>
+{% endfor %}
+</div>
